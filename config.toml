@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://catalyteek.netlify.com/"
+baseurl = "http://www.catalyteek.com/"
 languageCode = "en-us"
 title = "Hugo Freelancer Theme"
 theme = "hugo-freelancer-theme"
@@ -12,8 +12,8 @@ theme = "hugo-freelancer-theme"
 
     # To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-    name = "Mr. Hugo"
-    description = "My awesome description"
+    name = "Catalyteek"
+    description = "Catalyteek Homepage"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -26,27 +26,27 @@ theme = "hugo-freelancer-theme"
     # - send a dummy email youself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-    email = "your@email.com"
+    email = "laurent@catalyteek.com"
 
     # Custom assets
 	custom_css = []
 	custom_js  = []
 
     [params.navigation]
-        brand = "Mr. Hugo's Portfolio"
+        brand = "Catalyteek"
 
 
     [params.header]
         # Copy your own image into './static/img/'' if you wish
         image = "profile.png"
-        name = "Mr. Hugo"
-        subtitle = "Blogger - Programmer - Gopher"
+        name = "Laurent VAYLET"
+        subtitle = "MLOps | DataOps | DevOps | 2x GCP Certified Professional (Cloud Architect + Data Engineer)"
 
 
     [params.portfolio]
         # All projects defined in their own files. You can find example projects
-        # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
-        # at the root of this Hugo site.
+        # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 
+        # 'data' directory at the root of this Hugo site.
         # For more informtion take a look at the README.
         title = "Portfolio"
 
@@ -58,15 +58,15 @@ theme = "hugo-freelancer-theme"
 
 
     [params.about]
-        title = "About"
+        title = "About Me"
         # The about text is splitted into a left and right column
-        left = "Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization."
-        right = "Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!"
+        left = "A true passionate of everything related to cloud, infrastructure, DevOps and automation, I like to use my software engineering skills to make everyone's life easier. I collaborate with my customers to uncover their needs and identify the most efficient solutions, with an emphasis on hiding complexity and reducing time-to-market while making maintenance easy at the same time."
+        right = "Proactive and curious, I love to learn new skills on a daily basis and I embrace change whenever it shows up. In spite of being very open to new ideas, I am very strict and uncompromising when it comes to writing clean code and documenting my work. Finally, as a big fan of open source in general, I would rather reuse existing components than reinvent the wheel."
 
         [params.about.button]
-            text = "Download theme"
-            link = "//github.com/digitalcraftsman/hugo-freelancer-theme/archive/master.zip"
-            icon = "download"
+            text = "My full profile"
+            link = "//linkedin.com/in/laurent-vaylet-66b49a5/"
+            icon = "linkedin"
 
 
     [params.contact]
@@ -97,9 +97,9 @@ theme = "hugo-freelancer-theme"
         copyright = "Published under the Apache License 2.0. Powered by [Hugo](//gohugo.io)."
 
         [params.footer.location]
-            title = "Location"
+            title = "Address"
             # Postal address (add as many lines as necessary)
-            address = ["3481 Melrose Place", "Beverly Hills, CA 90210"]
+            address = ["8 Parc de la Bérengère", "92210 Saint-Cloud"]
 
         [params.footer.social]
             title = "Around the web"
@@ -108,11 +108,11 @@ theme = "hugo-freelancer-theme"
             # CSS class.
             [[params.footer.social.networks]]
                 icon = "fa-github"
-                link = "//github.com/spf13/hugo"
+                link = "//github.com/catalyteek"
 
             [[params.footer.social.networks]]
-                icon = "fa-stack-overflow"
-                link=  "//stackoverflow.com/questions/tagged/hugo"
+                icon = "fa-linkedin"
+                link=  "//linkedin.com/in/laurent-vaylet-66b49a5/"
 
 
         [params.footer.credits]
