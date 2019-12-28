@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "http://www.catalyteek.com/"
 languageCode = "en-us"
-title = "Hugo Freelancer Theme"
+title = "Catalyteek"
 theme = "hugo-freelancer-theme"
 
 
