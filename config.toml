@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://www.catalyteek.com/"
+baseurl = "https://www.catalyteek.com/"
 languageCode = "en-us"
 title = "Catalyteek"
 theme = "hugo-freelancer-theme"
